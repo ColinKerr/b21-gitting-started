@@ -7,21 +7,7 @@ Install tools:
 - curl `sudo snap install curl`
 - kdiff3: `sudo apt-get install kdiff3`
 - Visual Studio Code: https://code.visualstudio.com/Download
-- Node.js: 
-```bash
-# Get PPA from node source
-cd ~
-curl -sL https://deb.nodesource.com/setup_14.x -o /tmp/nodesource_setup.sh
-
-# Review script
-nano /tmp/nodesource_setup.sh
-
-# Run script
-sudo bash /tmp/nodesource_setup.sh
-
-# install node
-sudo apt install nodejs
-```
+- Node.js: `sudo snap install node --classic --channel=14`
 
 Setup git:
 ```bash
