@@ -4,6 +4,7 @@
 
 Install tools:
 - git: `sudo apt install git`
+- curl `sudo snap install curl`
 - kdiff3: `sudo apt-get install kdiff3`
 - Visual Studio Code: https://code.visualstudio.com/Download
 - Node.js: 
@@ -32,3 +33,10 @@ git config --global merge.tool kdiff3
 git config --global user.name "Mona Lisa"
 git config --global user.email "email@example.com"
 ```
+
+## Create App
+
+Following tutorial: https://developer.bentley.com/tutorials/web-application-quick-start/
+
+- Move to source directory: `cd ~/source/`
+- Create sample app: `npx create-react-app your-app-name --template @itwin/web-viewer --scripts-version @bentley/react-scripts`
